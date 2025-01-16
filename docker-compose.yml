@@ -1,0 +1,10 @@
+services:
+  nyt-books-api:
+    build: .
+    environment:
+      - NYT_API_KEY=${NYT_API_KEY}
+      - DATABASE_PATH=/app/data/nyt_bestsellers.db
+      - RAW_DATA_PATH=/app/data/nyt_bestsellers_raw.json
+    volumes:
+      - ./data:/app/data
+      - ./output:/app/output

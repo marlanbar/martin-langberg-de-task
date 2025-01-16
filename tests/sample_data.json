@@ -1,0 +1,39 @@
+[
+    {
+        "results": {
+            "published_date": "2023-01-01",
+            "lists": [
+                {
+                    "list_name": "list_1",
+                    "display_name": "List 1",
+                    "list_name_encoded": "list_1_encoded",
+                    "updated": "WEEKLY",
+                    "books": [
+                        {
+                            "primary_isbn13": "1234567890",
+                            "title": "Book A",
+                            "author": "Author A",
+                            "publisher": "Publisher A",
+                            "description": "Description A",
+                            "amazon_product_url": "http://example.com/a",
+                            "rank": 1,
+                            "rank_last_week": 0,
+                            "weeks_on_list": 1
+                        },
+                        {
+                            "primary_isbn13": "0987654321",
+                            "title": "Book B",
+                            "author": "Author B",
+                            "publisher": "Publisher B",
+                            "description": "Description B",
+                            "amazon_product_url": "http://example.com/b",
+                            "rank": 3,
+                            "rank_last_week": 0,
+                            "weeks_on_list": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]
